@@ -75,6 +75,9 @@ background-color: #666666;
   50% { color: rgb(255, 0, 186); }
   100% { color: rgb(222, 0, 128); }
 }
+a{
+  color: hotpink;
+}
 b{
   color: white;
 }
@@ -96,6 +99,7 @@ div.desc {
 }
 
 .responsive {
+  position: relative;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
@@ -119,24 +123,49 @@ div.desc {
   display: table;
   clear: both;
 }
+#img2 {
+    position: absolute;
+    left: 86px;
+    top: 15px;
+}
 </style>
 <center>
 	<body>
-       <big><big><big><big><big><big><big><big><big><big><center><b id="shit">Soretro Reviews</b></center></big></big></big></big></big></big></big></big></big></big>
+        <img src="https://i.ibb.co/8Lcs0tVY/coologo.png" alt="Coologo" width="777" height="111">
+		<c><big><p id="coolcrazyquotes"></p></big></c>
+    <script>
+        const texts = [
+            "This website contains homosexuality.",
+            "For millenial wannabes. By millenial wannabes.",
+			"Imagine if this website was ironic?",
+            "Somehow worse than Newgrounds.",
+			"Uwe Boll is favouriting all my reviews.",
+			"Guys I promise I will buy the domain I swear I will.",
+			"I don't care for Nintendo franchises.",
+			"Anti-fun fact: You can find my interests on my NG page.",
+			"Step aside, Syd Lexia.",
+			"🌹 This is for you, Dan.",
+            "https://piratebuddy.github.io/www.piratebuddy.com/"
+        ];
 
+        const randomIndex = Math.floor(Math.random() * texts.length);
+        document.getElementById('coolcrazyquotes').innerText = texts[randomIndex];
+    </script>
 <div class="responsive">
   <div class="gallery">
-    <a target="review1" href="https://i.ibb.co/5xB2BsmG/space.jpg">
-      <img src="https://i.ibb.co/5xB2BsmG/space.jpg" alt="Space Ace" width="333" height="333" style="border: 4mm ridge #8C471E;">
+    <a target="review1" href="https://i.ibb.co/fhp7yvZ/space.webp">
+      <img src="https://i.ibb.co/fhp7yvZ/space.webp" alt="Space Ace" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
-    <div class="desc"><b><a target="review1" href="https://i.ibb.co/5xB2BsmG/space.jpg">Space Ace for the SNES</a></b></div>
+    <div class="desc"><b><a target="review1" href="https://i.ibb.co/fhp7yvZ/space.webp">Space Ace for the SNES</a></b></div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
     <a target="review2" href="https://i.ibb.co/kLQBMph/dfens.gif">
-      <img src="https://i.ibb.co/kLQBMph/dfens.gif" alt="Rampage Crashout Falling Down" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/kLQBMph/dfens.gif" alt="Rampage Crashout Falling Down" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review2" href="https://i.ibb.co/kLQBMph/dfens.gif">Falling Down Crashouts</a></b></div>
   </div>
@@ -145,7 +174,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review3" href="https://i.ibb.co/CKD6JZwk/invadersmustdie.webp">
-      <img src="https://i.ibb.co/CKD6JZwk/invadersmustdie.webp" alt="Invaders Must Die" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/CKD6JZwk/invadersmustdie.webp" alt="Invaders Must Die" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review3" href="https://i.ibb.co/CKD6JZwk/invadersmustdie.webp">The Prodigy - Invaders Must Die</a></b></div>
   </div>
@@ -154,7 +184,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review4" href="https://i.ibb.co/ksFmChzw/alex.png">
-      <img src="https://i.ibb.co/ksFmChzw/alex.png" alt="Alex Kidd" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/ksFmChzw/alex.png" alt="Alex Kidd" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review4" href="https://i.ibb.co/ksFmChzw/alex.png">Alex Kidd in High-Tech World</a></b></div>
   </div>
@@ -163,7 +194,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review5" href="https://i.ibb.co/Y75PWbPs/robin.jpg">
-      <img src="https://i.ibb.co/Y75PWbPs/robin.jpg" alt="Robinson's Requiem" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/Y75PWbPs/robin.jpg" alt="Robinson's Requiem" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review5" href="https://i.ibb.co/Y75PWbPs/robin.jpg">Robinson's Requiem + Deus</a></b></div>
   </div>
@@ -172,7 +204,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review6" href="https://i.ibb.co/4gdDcFcy/vito.jpg">
-      <img src="https://i.ibb.co/4gdDcFcy/vito.jpg" alt="Sopranos Funny" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/4gdDcFcy/vito.jpg" alt="Sopranos Funny" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review6" href="https://i.ibb.co/4gdDcFcy/vito.jpg">Funniest Moments of The Sopranos</a></b></div>
   </div>
@@ -181,7 +214,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review7" href="https://i.ibb.co/RTYBW480/fag.jpg">
-      <img src="https://i.ibb.co/RTYBW480/fag.jpg" alt="Dickless Robot" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/RTYBW480/fag.jpg" alt="Dickless Robot" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review7" href="https://i.ibb.co/RTYBW480/fag.jpg">My True Honest Opinion on Dickless Robot</a></b></div>
   </div>
@@ -191,7 +225,8 @@ div.desc {
 <div class="responsive">
   <div class="gallery">
     <a target="review8" href="https://i.ibb.co/NgQ37VdC/sasha.jpg">
-      <img src="https://i.ibb.co/NgQ37VdC/sasha.jpg" alt="Faction" width="333" height="333" style="border: 4mm ridge #8C471E;">
+      <img src="https://i.ibb.co/NgQ37VdC/sasha.jpg" alt="Faction" id="img1" width="333" height="266" style="border: 4mm ridge #8C471E;">
+	  <img src="https://i.ibb.co/5WRYgLnC/underconstruction.png" id="img2" alt="Under Construction" width="303" height="236"">
     </a>
     <div class="desc"><b><a target="review8" href="https://i.ibb.co/NgQ37VdC/sasha.jpg">Glorified Trash in Russian Television</a></b></div>
   </div>
